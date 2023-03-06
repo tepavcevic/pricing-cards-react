@@ -1,0 +1,79 @@
+.content {
+    height: 100%;
+    max-width: 936px;
+    margin: 15vh auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.text-muted {
+    color: grey;
+    font-weight: 400;
+}
+
+.card {
+    text-align: center;
+    margin: 0 12px;
+    border: thin solid rgb(189, 189, 189);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.card-header {
+    background-color: #f6f6f6;
+    padding: 16px;
+    border-bottom: thin solid rgb(189, 189, 189);
+}
+
+.card-title {
+    font-weight: 500;
+    margin: 0;
+}
+
+.card-body {
+    padding: 16px;
+}
+
+.card-price-title {
+    font-size: 37px;
+    font-weight: 500;
+    margin: 0 0 8px 0;
+}
+
+.price-title-small {
+    font-size: 32px;
+    font-weight: 300;
+}
+
+ul {
+    list-style-type: none;
+    display: block;
+    padding: 0;
+}
+
+.btn {
+    font-size: 20px;
+    padding: 8px 16px;
+    width: 95%;
+    border: thin solid rgb(45, 45, 241);
+    border-radius: 8px;
+}
+
+.btn-free {
+    color: rgb(45, 45, 241);
+    background-color: white;
+}
+
+.btn-free:hover {
+    color: white;
+    background-color: rgb(45, 45, 241);
+}
+
+.btn-paid {
+    color: white;
+    background-color: rgb(45, 45, 241);
+}
+
+.btn-paid:hover {
+    background-color: rgb(31, 76, 254);
+}

@@ -2,11 +2,12 @@ export default function Card(props) {
     return(
         <div className="card">
             <header className="card-header">
-                <h2>{props.cardHeader}</h2>
+                <h2 className="card-title">{props.cardHeader}</h2>
             </header>
             <div className="card-body">
                 <div className="card-price">
-                    <h3>{props.price}<span className="text-muted">/mo</span></h3>
+                    <h3 className="card-price-title">{props.price}
+                    <span className="price-title-small text-muted">/mo</span></h3>
                 </div>
                 <div className="services">
                     <ul>
@@ -16,7 +17,10 @@ export default function Card(props) {
                         <li>Help center access</li>
                     </ul>
                 </div>
-                <button className="btn">{props.buttonText}</button>
+                {props.buttonText === "Sign up for free" ? 
+                <button className="btn btn-free">{props.buttonText}</button> :
+                <button className="btn btn-paid">{props.buttonText}</button>
+                 }
             </div>
         </div>
     )

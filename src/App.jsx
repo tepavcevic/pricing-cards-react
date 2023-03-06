@@ -4,7 +4,7 @@ import Card from './components/Card'
 function App() {
 
   return (
-    <div>
+    <main className="content">
       <Card 
         cardHeader="Free"
         price="$0"
@@ -20,7 +20,7 @@ function App() {
         numberOfUsers="20"
         amountOfStorage="10"
         supportTier="Priority email"
-        buttonText="Sign up for free"
+        buttonText="Get started"
       />
 
       <Card 
@@ -29,9 +29,9 @@ function App() {
         numberOfUsers="30"
         amountOfStorage="15"
         supportTier="Phone an email"
-        buttonText="Sign up for free"
+        buttonText="Contact us"
       />
-    </div>
+    </main>
   )
 }
 
