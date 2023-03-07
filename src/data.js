@@ -1,32 +1,29 @@
 export const data = [
     {
+        priceTier: "free",
         cardHeader: "Free",
         price: "$0",
         amountOfStorage: "2",
         numberOfUsers: "10",
         supportTier: "Email",
         buttonText: "Sign up for free",
-        classNameHeader: "",
-        classNameCard: "",
     },
     {
+        priceTier: "pro",
         cardHeader: "Pro",
         price: "$15",
         amountOfStorage: "10",
         numberOfUsers: "20",
         supportTier: "Priority email",
         buttonText: "Get started",
-        classNameHeader: "",
-        classNameCard: "",
     },
-    {
+    {        
+        priceTier: "enterprise",
         cardHeader: "Enterprise",
         price: "$29",
         amountOfStorage: "15",
         numberOfUsers: "30",
         supportTier: "Phone and email",
-        buttonText: "Contct us",
-        classNameHeader: "card-header-highlighted",
-        classNameCard: "card-highlighted",
+        buttonText: "Contact us",
     }
 ]

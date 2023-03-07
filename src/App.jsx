@@ -8,15 +8,14 @@ function App() {
     <main className="content">
       
       {data.map(data => 
-        <Card 
+        <Card
+        priceTier={data.priceTier}
         cardHeader={data.cardHeader}
         price={data.price}
         amountOfStorage={data.amountOfStorage}
         numberOfUsers={data.numberOfUsers}
         supportTier={data.supportTier}
         buttonText={data.buttonText}
-        classNameHeader={data.classNameHeader}
-        classNameCard={data.classNameCard}
       />)}
 
     </main>
