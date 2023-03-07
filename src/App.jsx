@@ -30,6 +30,8 @@ function App() {
         amountOfStorage="15"
         supportTier="Phone an email"
         buttonText="Contact us"
+        classNameHeader="card-header-highlighted"
+        classNameCard="card-highlighted"
       />
     </main>
   )

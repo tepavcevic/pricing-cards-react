@@ -19,10 +19,20 @@
     overflow: hidden;
 }
 
+.card-highlighted {
+    border: thin solid rgb(45, 45, 241);
+}
+
 .card-header {
     background-color: #f6f6f6;
     padding: 16px;
     border-bottom: thin solid rgb(189, 189, 189);
+}
+
+.card-header-highlighted {
+    color: white;
+    background-color: rgb(45, 45, 241);
+    border-bottom: thin solid rgb(45, 45, 241);
 }
 
 .card-title {

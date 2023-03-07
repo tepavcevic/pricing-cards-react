@@ -1,7 +1,7 @@
 export default function Card(props) {
     return(
-        <div className="card">
-            <header className="card-header">
+        <div className={`card ${props.classNameCard}`}>
+            <header className={`card-header ${props.classNameHeader}`}>
                 <h2 className="card-title">{props.cardHeader}</h2>
             </header>
             <div className="card-body">
