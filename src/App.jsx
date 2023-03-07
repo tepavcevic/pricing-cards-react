@@ -1,12 +1,13 @@
-import "./App.css";
-import { data } from "./data";
-import Card from "./components/Card";
+import './App.css'
+import { data } from './data'
+import Card from './components/Card'
 
 function App() {
   return (
-    <main className="content">
-      {data.map((data) => (
-        <Card
+      <main className="content">
+        
+        {data.map(data => 
+          <Card
           priceTier={data.priceTier}
           cardHeader={data.cardHeader}
           price={data.price}
@@ -15,9 +16,9 @@ function App() {
           supportTier={data.supportTier}
           buttonText={data.buttonText}
         />
-      ))}
-    </main>
-  );
+        )}
+      </main>
+  )
 }
 
-export default App;
+export default App
